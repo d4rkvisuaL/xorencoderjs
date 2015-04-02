@@ -1,0 +1,16 @@
+public class DICAss10_XOREncryption {
+ public static void main(String[] args){
+ String Msg = "Encodelenecek Metin";
+ char key = 'k'; 
+ String CTxt = "";
+ int xor;
+ char temp;
+ for(int i=0;i<Msg.lenght();i++){
+ xor=Msg.charAt(i)^ Key;
+ temp=(char)xor;
+ CTxt=Ctxt+temp;
+ }
+
+System.out.println(Ctxt);
+ }
+}
